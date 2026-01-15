@@ -2,15 +2,15 @@ import { initializeApp } from 'firebase/app';
 import { getAuth } from 'firebase/auth';
 import { getFirestore } from 'firebase/firestore';
 
-// Your Firebase config
+// Your Firebase config - using fallback values
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
-  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
-  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
-  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
-  appId: import.meta.env.VITE_FIREBASE_APP_ID,
-  measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID,
+  apiKey: "AIzaSyBTKdylbBH1rAaedmpz1mauyEMIR8JLU78",
+  authDomain: "nutrition-tracker-7664e.firebaseapp.com",
+  projectId: "nutrition-tracker-7664e",
+  storageBucket: "nutrition-tracker-7664e.firebasestorage.app",
+  messagingSenderId: "728366730885",
+  appId: "1:728366730885:web:c26abc123bed420cbe63ec",
+  measurementId: "G-8YYWRWQ2WY",
 };
 
 // Initialize Firebase

@@ -77,28 +77,36 @@
   padding: 12px;
   background-color: white;
   color: #1e293b;
-  border: 2px solid #e2e8f0;
+  border: 1px solid #dadce0;
   border-radius: 8px;
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 500;
   cursor: pointer;
   transition: all 0.3s ease;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
+  gap: 10px;
 }
 
 .btn-google:hover:not(:disabled) {
-  border-color: #6366f1;
-  background-color: #f1f5f9;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.2);
+  background-color: #f9f9f9;
+  border-color: #d3d3d3;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.btn-google:active:not(:disabled) {
+  background-color: #f1f1f1;
 }
 
 .btn-google:disabled {
   opacity: 0.6;
   cursor: not-allowed;
+}
+
+.btn-google svg {
+  width: 20px;
+  height: 20px;
 }
 
 .error-message {
